@@ -31,8 +31,11 @@ You need to have bash, perl, wget, and mailx installed to run this program
 How to install
 --------------
 1) Edit monitor.pl for  $config_dir, $storage_dir, and $localadminemail in the init routine.
+
 2) run ./install.sh
+
 3) Edit /opt/monitor/monitor.conf for the hosts to be monitored and where to send the email alerts
+
 4) Add the crontab entries to your crontab.  Please note that this user must be able to edit and delete files in /opt/monitor/storage.
 
 Crontab Entries
