@@ -41,8 +41,8 @@ How to install
 Crontab Entries
 --------------
 
-	5 * * * * /opt/monitor/bin/monitor.pl # You can run this more often if you want!
-	30 9 *  * 1 /opt/monitor/bin/monitor.pl testemail # Mails a test email to all entries
+	5 * * * * /opt/monitor/monitor.pl # You can run this more often if you want!
+	30 9 *  * 1 /opt/monitor/monitor.pl testemail # Mails a test email to all entries
 
 Notes on monitor.conf
 --------------
